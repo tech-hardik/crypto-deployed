@@ -1,10 +1,11 @@
 import os
+os.environ["OPENBB_AUTO_BUILD"] = "0"
+from openbb import obb
 from dotenv import load_dotenv
 import streamlit as st
 import textwrap
 from langgraph.graph import END, StateGraph
 from langchain_groq import ChatGroq
-from openbb import obb
 from langchain_core.messages import HumanMessage, SystemMessage
 from duckduckgo_search import DDGS
 from langgraph.prebuilt import tools_condition, ToolNode

@@ -8,3 +8,6 @@ duckduckgo_search
 numpy==1.26.4
 aiohttp>=3.8.0
 setuptools
+openbb==4.3.1
+defusedxml>=0.8.0rc2
+setuptools

@@ -368,4 +368,4 @@ if st.button("Get Report"):
 
 # Footer
 st.markdown("---")
-st.markdown("Developed by Prakhar Shukla with ❤️")
+st.markdown("Manipal University Jaipur")

@@ -1,5 +1,6 @@
 import os
 os.environ["OPENBB_AUTO_BUILD"] = "0"
+os.system("pip install --upgrade aiohttp ccxt")
 from openbb import obb
 from dotenv import load_dotenv
 import streamlit as st

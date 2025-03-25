@@ -7,3 +7,4 @@ pandas_ta==0.3.14b
 duckduckgo_search
 numpy==1.26.4
 aiohttp>=3.8.0
+setuptools
